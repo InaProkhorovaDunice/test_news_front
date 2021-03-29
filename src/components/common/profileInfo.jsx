@@ -16,7 +16,7 @@ const ProfileInfo = (props) => {
       <div className={'avatar-block'}>
         <Avatar alt="Remy Sharp" src={'https://avatarko.ru/img/kartinka/1/zhivotnye_kotenok.jpg'} />
       </div>
-      <div className={'data-block'}>
+      <div>
         {nickname && <Typography>{nickname}</Typography>}
         <Typography>{email}</Typography>
       </div>
