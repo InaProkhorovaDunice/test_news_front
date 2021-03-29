@@ -1,0 +1,7 @@
+@import './styles/variables.scss';
+
+.App {
+  font-size: $baseFontSize;
+  line-height: $baseLineHeight;
+  text-align: center;
+}
